@@ -67,3 +67,12 @@ body{
     margin: 10px auto;
     border: 1px solid #d1d1d1;
 }
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        max-width: 90%;
+    }
+}
